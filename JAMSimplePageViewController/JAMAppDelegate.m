@@ -7,14 +7,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    NSArray *viewControllers = @[ [JAMNumberedViewController.alloc initWithNumber:@1],
-                                  [JAMNumberedViewController.alloc initWithNumber:@2],
-                                  [JAMNumberedViewController.alloc initWithNumber:@3],
-                                  [JAMNumberedViewController.alloc initWithNumber:@4],
-                                  [JAMNumberedViewController.alloc initWithNumber:@5] ];
-    
+    NSMutableArray *viewControllers = NSMutableArray.new;
+    for (int i = 1; i <= 10; i++) {
+        [viewControllers addObject:[JAMNumberedViewController.alloc initWithNumber:@(i)]];
+    }
+
     self.window = [UIWindow.alloc initWithFrame:UIScreen.mainScreen.bounds];
-    self.window.backgroundColor = UIColor.darkGrayColor;
+    self.window.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"TexturedBackgroundColor"]];
     self.window.rootViewController = [JAMSimplePageViewController.alloc initWithViewControllers:viewControllers transitionStyle:UIPageViewControllerTransitionStyleScroll];
     [self.window makeKeyAndVisible];
 

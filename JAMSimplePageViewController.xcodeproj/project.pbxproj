@@ -16,6 +16,8 @@
 		2A29F01D18EEFA8C007EB32A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A29F01C18EEFA8C007EB32A /* Images.xcassets */; };
 		2A29F03B18EEFAC0007EB32A /* JAMSimplePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A29F03A18EEFAC0007EB32A /* JAMSimplePageViewController.m */; };
 		2A29F03E18EEFC22007EB32A /* JAMNumberedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A29F03D18EEFC22007EB32A /* JAMNumberedViewController.m */; };
+		63D8A6BF18EF3C2200BD6512 /* TexturedBackgroundColor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D8A6BD18EF3C2200BD6512 /* TexturedBackgroundColor@2x.png */; };
+		63D8A6C018EF3C2200BD6512 /* TexturedBackgroundColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 63D8A6BE18EF3C2200BD6512 /* TexturedBackgroundColor.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		2A29F03A18EEFAC0007EB32A /* JAMSimplePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JAMSimplePageViewController.m; path = Classes/JAMSimplePageViewController/JAMSimplePageViewController.m; sourceTree = "<group>"; };
 		2A29F03C18EEFC22007EB32A /* JAMNumberedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAMNumberedViewController.h; sourceTree = "<group>"; };
 		2A29F03D18EEFC22007EB32A /* JAMNumberedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAMNumberedViewController.m; sourceTree = "<group>"; };
+		63D8A6BD18EF3C2200BD6512 /* TexturedBackgroundColor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TexturedBackgroundColor@2x.png"; sourceTree = "<group>"; };
+		63D8A6BE18EF3C2200BD6512 /* TexturedBackgroundColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TexturedBackgroundColor.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +57,10 @@
 		2A29EFF518EEFA8C007EB32A = {
 			isa = PBXGroup;
 			children = (
+				2A29F00018EEFA8C007EB32A /* Frameworks */,
+				2A29F00718EEFA8C007EB32A /* JAMSimplePageViewController */,
 				2A29F03918EEFAC0007EB32A /* JAMSimplePageViewController.h */,
 				2A29F03A18EEFAC0007EB32A /* JAMSimplePageViewController.m */,
-				2A29F00718EEFA8C007EB32A /* JAMSimplePageViewController */,
-				2A29F00018EEFA8C007EB32A /* Frameworks */,
 				2A29EFFF18EEFA8C007EB32A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,12 +86,14 @@
 		2A29F00718EEFA8C007EB32A /* JAMSimplePageViewController */ = {
 			isa = PBXGroup;
 			children = (
+				2A29F01C18EEFA8C007EB32A /* Images.xcassets */,
 				2A29F01018EEFA8C007EB32A /* JAMAppDelegate.h */,
+				2A29F01118EEFA8C007EB32A /* JAMAppDelegate.m */,
 				2A29F03C18EEFC22007EB32A /* JAMNumberedViewController.h */,
 				2A29F03D18EEFC22007EB32A /* JAMNumberedViewController.m */,
-				2A29F01118EEFA8C007EB32A /* JAMAppDelegate.m */,
-				2A29F01C18EEFA8C007EB32A /* Images.xcassets */,
 				2A29F00818EEFA8C007EB32A /* Supporting Files */,
+				63D8A6BE18EF3C2200BD6512 /* TexturedBackgroundColor.png */,
+				63D8A6BD18EF3C2200BD6512 /* TexturedBackgroundColor@2x.png */,
 			);
 			path = JAMSimplePageViewController;
 			sourceTree = "<group>";
@@ -157,6 +163,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A29F01D18EEFA8C007EB32A /* Images.xcassets in Resources */,
+				63D8A6BF18EF3C2200BD6512 /* TexturedBackgroundColor@2x.png in Resources */,
+				63D8A6C018EF3C2200BD6512 /* TexturedBackgroundColor.png in Resources */,
 				2A29F00C18EEFA8C007EB32A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,7 +229,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -254,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
