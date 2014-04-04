@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "JAMSimplePageViewController"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A simple, self contained UIPageViewController."
 
   s.description  = <<-DESC
