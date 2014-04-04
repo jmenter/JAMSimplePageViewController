@@ -15,7 +15,7 @@
     
     self.window = [UIWindow.alloc initWithFrame:UIScreen.mainScreen.bounds];
     self.window.backgroundColor = UIColor.darkGrayColor;
-    self.window.rootViewController = [JAMSimplePageViewController.alloc initWithViewControllers:viewControllers transitionStyle:UIPageViewControllerTransitionStylePageCurl];
+    self.window.rootViewController = [JAMSimplePageViewController.alloc initWithViewControllers:viewControllers transitionStyle:UIPageViewControllerTransitionStyleScroll];
     [self.window makeKeyAndVisible];
 
     return YES;

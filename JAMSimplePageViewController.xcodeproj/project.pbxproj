@@ -30,8 +30,8 @@
 		2A29F01018EEFA8C007EB32A /* JAMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JAMAppDelegate.h; sourceTree = "<group>"; };
 		2A29F01118EEFA8C007EB32A /* JAMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JAMAppDelegate.m; sourceTree = "<group>"; };
 		2A29F01C18EEFA8C007EB32A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2A29F03918EEFAC0007EB32A /* JAMSimplePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAMSimplePageViewController.h; sourceTree = "<group>"; };
-		2A29F03A18EEFAC0007EB32A /* JAMSimplePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAMSimplePageViewController.m; sourceTree = "<group>"; };
+		2A29F03918EEFAC0007EB32A /* JAMSimplePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JAMSimplePageViewController.h; path = Classes/JAMSimplePageViewController/JAMSimplePageViewController.h; sourceTree = "<group>"; };
+		2A29F03A18EEFAC0007EB32A /* JAMSimplePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JAMSimplePageViewController.m; path = Classes/JAMSimplePageViewController/JAMSimplePageViewController.m; sourceTree = "<group>"; };
 		2A29F03C18EEFC22007EB32A /* JAMNumberedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAMNumberedViewController.h; sourceTree = "<group>"; };
 		2A29F03D18EEFC22007EB32A /* JAMNumberedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAMNumberedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
